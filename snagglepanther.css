@@ -29,8 +29,11 @@ span.cm-variable	{ color: #b11fd4; }
 
 /* MISC ---------------------------------------------------------------------- */
 
-.CodeMirror,
-.CodeMirror .CodeMirror-scroll {
+.CodeMirror {
+    line-height: 1.4;
+}
+
+.CodeMirror-scroll {
 	background: #fff;
 	color: #675d65;
 }
